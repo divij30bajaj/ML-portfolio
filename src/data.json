@@ -1,0 +1,91 @@
+{
+    "profile": {
+        "name": "Divij Bajaj",
+        "headline": "Graduate NLP Researcher @ Texas A&M University | Ex-Wells Fargo | IIT (BHU) Varanasi, India",
+        "github": "https://github.com/divij30bajaj",
+        "Gscholar": "https://scholar.google.com/citations?user=Fq1C9fUAAAAJ",
+        "linkedin": "https://www.linkedin.com/in/divij-bajaj-91292482",
+        "resume": "/Divij Bajaj - Resume.pdf",
+        "email": "divij.bajaj@tamu.edu"
+    },
+
+    "highlights": [
+        "1 paper accepted at EMNLP Findings 2024 as Lead Author!",
+        "Tutorial on Mitigating Gender Bias in LLMs out <a href='https://colab.research.google.com/drive/1dpwJFeQ3Z-c7Tx9vAf3JJD3S_qKNJnm-' target='_blank' rel='noopener noreferrer'>here</a>",
+        "Attended NEMI 2024 (Workshop on Interpretable LLMs @ Northeastern University)"
+    ],
+
+    "about": "Jack of all trades and master of ONE - that's how I would define myself! I am a Computer Science graduate student and an NLP researcher at Texas A&M University under Dr. Ruihong Huang. My interests mainly lie in applications of LLMs in production systems and black-box LLM Interpretability. I bring 2+ years of industry experience in building Machine Learning pipelines from my work as a Data Engineer at Wells Fargo. My technical proficiency spans several object-oriented programming languages, including Java, C++, Python, and Groovy, along with ML frameworks like Apache Kafka, Git, Jenkins, TensorFlow, and PyTorch. <br><br>Having graduated from the Indian Institute of Technology (IIT BHU), one of India's top 10 engineering schools, I possess both the academic foundation and the practical experience to excel at any work that comes my way. I have received accolades from my previous employers for being a quick learner and a responsible employee who takes full ownership of his work.<br><br>While I am focused on mastering my knowledge about LLMs, but why Jack of all trades? I love exploring new areas and playing around with things I don’t know yet. My experience in mobile app development, entrepreneurship and game development as hobby projects, make me an all-round player. Opportunities to build innovative and valuable products have never failed to excite me.",
+  
+    "experience": [
+        {
+            "company": "Indian Institute of Technology (IIT BHU)",
+            "title": "Bachelor of Technology",
+            "year": "2021",
+            "description": "Graduated with a GPA of 8.98 out of 10. Pursued relevant courses such as Natural Language Processing"
+        },
+        {
+            "company": "International Institute of Information Technology, Hyderabad",
+            "title": "Undergraduate Research Assistant",
+            "year": "2021",
+            "description": "Developed a novel stratification approach to tackle skewness in large ML datasets, achieving a 25% reduction in standard deviation."
+        },
+        {
+            "company": "Wells Fargo, India",
+            "title": "Software Engineer (ML)",
+            "year": "2021-2023",
+            "description": "Enhanced Data Ingestion Pipeline leveraging Apache Kafka to fetch and process 5 million trading records daily for the Data Analytics ML model."
+        },
+        {
+            "company": "Texas A&M University, College Station",
+            "title": "MS in Computer Science",
+            "year": "2023-2025",
+            "description": "Successfully completed relevant courses such as Deep Learning, Trustworthy NLP among others with a 4/4 GPA"
+        }
+    ],
+    "publications": [
+        {
+            "title": "Evaluating Gender Bias of LLMs in Making Morality Judgements",
+            "venue": "EMNLP Findings 2024",
+            "authors": "<b>Divij Bajaj</b>, Yuanyuan Lei, Jonathan Tong, Ruihong Huang",
+            "github_link": "https://github.com/divij30bajaj/GenMO",
+            "pdf_link": "https://arxiv.org/abs/2410.09992",
+            "description": [
+                "Curated a novel dataset containing parallel short stories with a male and female protagonist performing moral/immoral actions.",
+                "Evaluated current closed and open-source Large Language Models (LLMs) to identify the presence of gender bias in making morality judgments using the curated dataset."
+            ]
+        },
+        {
+            "title": "Wisdom of (Binned) Crowds: A Bayesian Stratification Paradigm for Crowd Counting",
+            "venue": "ACM Multimedia 2021",
+            "authors": "Shivapuja, S. V., Khamkar, M. P., <b>Bajaj, D.</b>, Ramakrishnan, G., & Sarvadevabhatla, R. K.",
+            "github_link": "https://github.com/atmacvit/bincrowd",
+            "pdf_link": "https://dl.acm.org/doi/10.1145/3474085.3475522",
+            "description": [
+                "Developed a novel smoothed Bayesian sample stratification approach in PyTorch to enable balanced mini-batch sampling in large, heavy-tailed Computer Vision datasets, achieving a 25% reduction in standard deviation.",
+                "Executed a novel data augmentation approach to reduce skewness in existing datasets by over 40%."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Mitigating Gender Bias in GPT-2 by identifying Biased Training Samples",
+            "github_link": "In Progress",
+            "description": [
+                "Leveraging Influence Functions to identify most influential training samples given a concept such as Gender Bias",
+                "Employing techniques such as Machine Unlearning to learn an unbiased GPT-2",
+                "Evaluating on Gender Bias datasets such as Winobias among others."
+            ]
+        },
+        {
+            "title": "Context-Aware Retrieval Augmented Generation (RAG) using Reinforcement Learning",
+            "github_link": "https://github.com/divij30bajaj/context-selector",
+            "description": [
+                "Designed an approach to retrieve the sentences relevant to a target sentence from long documents that do not fit in the limited input size of current LLMs.",
+                "Evaluated the method on various downstream NLP tasks like information retrieval and question answering."
+            ]
+        }
+    ],
+
+    "contact": "If you are looking to hire an ML Engineer, Applied Scientist or Research Engineer, let's have a chat!"
+}

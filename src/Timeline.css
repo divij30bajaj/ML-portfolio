@@ -1,0 +1,105 @@
+/* Timeline container */
+.timeline {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  position: relative;
+  padding: 20px;
+}
+
+/* Horizontal line for the timeline */
+.timeline-line {
+  position: absolute;
+  height: 2px; /* Thickness of the line */
+  background: #007C7F; /* Color of the line */
+  left: 50px; /* Adjust based on dot size */
+  right: 50px; /* Adjust based on dot size */
+  top: 14%; /* Center the line vertically */
+  z-index: 1; /* Ensure it's behind the dots */
+}
+
+/* Individual timeline items */
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0; /* Space between items */
+  position: relative;
+  z-index: 2; /* Ensure content is above the line */
+  margin-top: 45px;
+}
+
+/* Timeline dot */
+.timeline-dot {
+  background: #007C7F; /* Dot color */
+  border-radius: 50%; /* Make it round */
+  width: 20px; /* Size of the dot */
+  height: 20px; /* Size of the dot */
+  margin-bottom: 5px; /* Space between dot and year */
+  cursor: pointer; /* Pointer on hover */
+}
+
+/* Year display */
+.timeline-year {
+  font-weight: bold; /* Make year bold */
+  text-align: center; /* Center the year */
+  margin-bottom: 5px; /* Space between year and card */
+  width: 50px;
+  padding: 5px;
+}
+
+/* Timeline card */
+.timeline-card {
+  background: #f8f8f8; /* Background for card */
+  border: 1px solid #ddd; /* Card border */
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px; /* Width of the card */
+  text-align: center; /* Center content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+  display: block; /* Initially hide the description */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .timeline-line {
+    position: relative;
+    width: 2px; /* Thickness of the line */
+    height: 1300px; /* Full height of the viewport minus padding */
+    left: 3%; /* Center the line */
+    top: 0; /* Align at the top */
+    transform: translateX(-20%); /* Center the line */
+  }
+
+  .timeline-item {
+    flex-direction: row; /* Display items in row for smaller screens */
+    margin: 40px 0; /* Add spacing for smaller screens */
+    position: absolute;
+  }
+
+  .timeline-item:nth-child(2) {
+    top: 0%; /* Position first item */
+  }
+  
+  .timeline-item:nth-child(3) {
+    top: 23%; /* Position second item */
+  }
+
+  .timeline-item:nth-child(4) {
+    top: 49%; /* Position third item */
+  }
+
+  .timeline-item:nth-child(5) {
+    top: 74%; /* Position third item */
+  }
+
+  .timeline-card {
+    width: 90%; /* Full width on smaller screens */
+  }
+}
+
+
+  
